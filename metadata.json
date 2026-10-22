@@ -1,0 +1,6 @@
+{
+  "name": "VisEntrixia - Akkaraipattu Tourist Day Planner",
+  "description": "Local Tourist Day-Visit Planner and Information System for Akkaraipattu, Eastern Sri Lanka with interactive Leaflet mapping, session itinerary builder, and admin CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
