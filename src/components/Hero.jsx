@@ -65,7 +65,7 @@ export const Hero = ({ onExploreClick, onOpenMapClick }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-stone-200/90 aspect-[4/3] bg-stone-100">
               <img
-                src="/src/assets/images/hero_akkaraipattu_1792478448218.jpg"
+                src="/assets/images/hero_akkaraipattu_1792478448218.jpg"
                 alt="Akkaraipattu golden coastline and palm groves"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transform hover:scale-102 transition-transform duration-700"

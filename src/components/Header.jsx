@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext.jsx';
 import { ShieldAlert, User, LogOut, ShieldCheck } from 'lucide-react';
-import logoImg from '../assets/images/1000451070 (1).jpg';
+const logoImg = '/assets/images/1000451070 (1).jpg';
 
 export const Header = ({ activeTab, setActiveTab, onOpenSafetyModal }) => {
   const { user, logout, openAuthModal } = useAuth();

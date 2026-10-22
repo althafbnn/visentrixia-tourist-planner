@@ -44,7 +44,7 @@ export const AttractionDetailModal = ({
       >
         <div className="relative aspect-[16/9] w-full bg-stone-100 shrink-0">
           <img
-            src={place.images[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+            src={place.images[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
             alt={place.name}
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"

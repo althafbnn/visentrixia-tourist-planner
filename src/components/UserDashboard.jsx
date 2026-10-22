@@ -111,7 +111,7 @@ export const UserDashboard = ({ setActiveTab }) => {
                     {/* Top Banner Image with fallback to Akkaraipattu scenic view */}
                     <div className="h-32 bg-stone-800 relative overflow-hidden">
                       <img
-                        src={planItems[0]?.images?.[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+                        src={planItems[0]?.images?.[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
                         alt={plan.title}
                         className="w-full h-full object-cover opacity-85"
                         referrerPolicy="no-referrer"
@@ -158,7 +158,7 @@ export const UserDashboard = ({ setActiveTab }) => {
                             {planItems.map((spot, i) => (
                               <div key={i} className="flex items-center gap-3 bg-white p-2.5 rounded-xl border border-stone-200/80 shadow-2xs">
                                 <img
-                                  src={spot.images?.[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+                                  src={spot.images?.[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
                                   alt={spot.name}
                                   className="w-11 h-11 rounded-lg object-cover bg-stone-100 shrink-0"
                                   referrerPolicy="no-referrer"

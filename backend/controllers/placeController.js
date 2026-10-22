@@ -117,7 +117,7 @@ export async function createPlace(req, res) {
       safetyInfo: safetyInfo?.trim() || 'Exercise personal care and respect local cultural customs.',
       childFriendly: Boolean(childFriendly),
       facilities: Array.isArray(facilities) && facilities.length > 0 ? facilities : ['Parking', 'Restrooms'],
-      images: Array.isArray(images) && images.length > 0 ? images : ['/src/assets/images/hero_akkaraipattu_1792478448218.jpg']
+      images: Array.isArray(images) && images.length > 0 ? images : ['/assets/images/hero_akkaraipattu_1792478448218.jpg']
     });
 
     await writeAudit({

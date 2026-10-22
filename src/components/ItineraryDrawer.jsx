@@ -204,7 +204,7 @@ export const ItineraryDrawer = () => {
                   </div>
 
                   <img
-                    src={item.images?.[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+                    src={item.images?.[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
                     alt={item.name}
                     referrerPolicy="no-referrer"
                     className="w-12 h-12 rounded-lg object-cover bg-stone-100 shrink-0"

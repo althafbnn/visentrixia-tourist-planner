@@ -37,7 +37,7 @@ export const AdminDashboard = ({ places, onRefreshPlaces }) => {
     safetyInfo: '',
     childFriendly: true,
     facilitiesText: 'Parking, Restrooms',
-    imageUrl: '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'
+    imageUrl: '/assets/images/hero_akkaraipattu_1792478448218.jpg'
   });
 
   useEffect(() => {
@@ -69,7 +69,7 @@ export const AdminDashboard = ({ places, onRefreshPlaces }) => {
       safetyInfo: '',
       childFriendly: true,
       facilitiesText: 'Parking, Restrooms',
-      imageUrl: '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'
+      imageUrl: '/assets/images/hero_akkaraipattu_1792478448218.jpg'
     });
     setModalMode('create');
     setFeedback(null);
@@ -90,7 +90,7 @@ export const AdminDashboard = ({ places, onRefreshPlaces }) => {
       safetyInfo: place.safetyInfo,
       childFriendly: place.childFriendly,
       facilitiesText: place.facilities.join(', '),
-      imageUrl: place.images[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'
+      imageUrl: place.images[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'
     });
     setModalMode('edit');
     setFeedback(null);
@@ -277,7 +277,7 @@ export const AdminDashboard = ({ places, onRefreshPlaces }) => {
                     <td className="py-3 px-4">
                       <div className="flex items-center gap-3">
                         <img
-                          src={place.images[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+                          src={place.images[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
                           alt={place.name}
                           referrerPolicy="no-referrer"
                           className="w-10 h-10 rounded-md object-cover bg-stone-100 shrink-0"

@@ -15,7 +15,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Strict modest dress code required for all visitors (shoulders and knees covered). Avoid loud voices inside the main sanctuary.',
     childFriendly: true,
     facilities: ['Parking Area', 'Restrooms', 'Ablution Stations', 'Shoe Deposit'],
-    images: ['/src/assets/images/hero_akkaraipattu_1792478448218.jpg'],
+    images: ['/assets/images/hero_akkaraipattu_1792478448218.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -35,7 +35,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Caution: Slippery sea rocks on the coastline behind the temple grounds. Traditional temple attire recommended.',
     childFriendly: true,
     facilities: ['Vehicle Parking', 'Restrooms', 'Sacred Well', 'Prasadam Stalls'],
-    images: ['/src/assets/images/historic_temple_kovil_1792478449341.jpg'],
+    images: ['/assets/images/historic_temple_kovil_1792478449341.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -55,7 +55,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Warning: Deep marsh banks and proximity to wild elephant corridors around sunset; depart before 06:00 PM. Apply insect repellent.',
     childFriendly: true,
     facilities: ['Nature Footpaths', 'Observation Mounds', 'Rustic Parking'],
-    images: ['/src/assets/images/sagamam_nature_lake_1792478449468.jpg'],
+    images: ['/assets/images/sagamam_nature_lake_1792478449468.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -75,7 +75,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Caution: High pedestrian and motorbike activity along town street market; keep children close. Hot oil cooking stations.',
     childFriendly: true,
     facilities: ['Street Dining Stalls', 'Takeaway Counters', 'Hand Wash Stations'],
-    images: ['/src/assets/images/eastern_culinary_bazaar_1792478449487.jpg'],
+    images: ['/assets/images/eastern_culinary_bazaar_1792478449487.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -95,7 +95,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Strong wind gusts near coastal wall. Children must be supervised around high seawalls.',
     childFriendly: true,
     facilities: ['Car Parking', 'Restrooms', 'Shaded Benches', 'Information Board'],
-    images: ['/src/assets/images/hero_akkaraipattu_1792478448218.jpg'],
+    images: ['/assets/images/hero_akkaraipattu_1792478448218.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -115,7 +115,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Warning: Dangerous ocean rip currents; recreational swimming is strictly prohibited. No permanent beach lifeguards on duty.',
     childFriendly: true,
     facilities: ['Open Shoreline', 'Fresh Fish Stalls', 'Bike Parking'],
-    images: ['/src/assets/images/hero_akkaraipattu_1792478448218.jpg'],
+    images: ['/assets/images/hero_akkaraipattu_1792478448218.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -135,7 +135,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Modest white or light clothing required. Footwear and hats must be removed before entering the sacred perimeter.',
     childFriendly: true,
     facilities: ['Museum Gallery', 'Pilgrim Rest Halls', 'Vehicle Parking', 'Restrooms'],
-    images: ['/src/assets/images/historic_temple_kovil_1792478449341.jpg'],
+    images: ['/assets/images/historic_temple_kovil_1792478449341.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -155,7 +155,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Do not venture off established tracks into thick brush. Wildlife awareness required (wild boars, occasional elephants).',
     childFriendly: false,
     facilities: ['Forest Perimeter Parking', 'Wilderness Trails', 'Wildlife Watchpoint'],
-    images: ['/src/assets/images/sagamam_nature_lake_1792478449468.jpg'],
+    images: ['/assets/images/sagamam_nature_lake_1792478449468.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -175,7 +175,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Remove shoes at outer boundary pavilion. Wash hands and feet before entering sacred courtyard.',
     childFriendly: true,
     facilities: ['Parking Area', 'Restrooms', 'Sacred Water Pool', 'Garland Stalls'],
-    images: ['/src/assets/images/historic_temple_kovil_1792478449341.jpg'],
+    images: ['/assets/images/historic_temple_kovil_1792478449341.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   },
@@ -195,7 +195,7 @@ export const INITIAL_PLACES = [
     safetyInfo: 'Watch footsteps around moving timber loom frames and yarn spools. Keep hands away from working shuttles.',
     childFriendly: true,
     facilities: ['Craft Shop', 'Live Demonstration Hall', 'Visitor Restrooms', 'Parking'],
-    images: ['/src/assets/images/eastern_culinary_bazaar_1792478449487.jpg'],
+    images: ['/assets/images/eastern_culinary_bazaar_1792478449487.jpg'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   }

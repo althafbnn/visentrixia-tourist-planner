@@ -27,7 +27,7 @@ export const AttractionCard = ({ place, onSelectPlace, onViewOnMap }) => {
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-stone-100">
         <img
-          src={place.images[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+          src={place.images[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
           alt={place.name}
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"

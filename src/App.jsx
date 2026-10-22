@@ -108,7 +108,7 @@ function ItineraryPlannerPage({ places, onSelectPlace, setSelectedPlaceForMap, s
     const printWindow = window.open('', '_blank');
     
     const itemsHtml = items.map((item, index) => {
-      const imgSrc = (item.images && item.images[0]) ? item.images[0] : '/src/assets/images/hero_akkaraipattu_1792478448218.jpg';
+      const imgSrc = (item.images && item.images[0]) ? item.images[0] : '/assets/images/hero_akkaraipattu_1792478448218.jpg';
       const feeText = item.entranceFee === 0 ? 'Free' : 'LKR ' + item.entranceFee;
       const tipHtml = item.travelTips ? `<div class="tip">💡 <b>Travel Tip:</b> ${item.travelTips}</div>` : '';
       
@@ -258,7 +258,7 @@ function ItineraryPlannerPage({ places, onSelectPlace, setSelectedPlaceForMap, s
               return (
                 <div key={place.id} className="p-2.5 rounded-xl border border-stone-100 hover:border-stone-200 bg-stone-50/50 flex items-center justify-between gap-3">
                   <img
-                    src={place.images?.[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+                    src={place.images?.[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
                     alt={place.name}
                     className="w-10 h-10 rounded-lg object-cover bg-stone-200 shrink-0"
                     referrerPolicy="no-referrer"
@@ -370,7 +370,7 @@ function ItineraryPlannerPage({ places, onSelectPlace, setSelectedPlaceForMap, s
 
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-2">
                   <img
-                    src={item.images?.[0] || '/src/assets/images/hero_akkaraipattu_1792478448218.jpg'}
+                    src={item.images?.[0] || '/assets/images/hero_akkaraipattu_1792478448218.jpg'}
                     alt={item.name}
                     className="w-24 h-20 rounded-lg object-cover bg-stone-200 shrink-0 shadow-xs"
                     referrerPolicy="no-referrer"
