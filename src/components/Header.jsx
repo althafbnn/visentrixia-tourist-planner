@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext.jsx';
 import { ShieldAlert, User, LogOut, ShieldCheck } from 'lucide-react';
+
 const logoImg = '/assets/images/1000451070 (1).jpg';
 
 export const Header = ({ activeTab, setActiveTab, onOpenSafetyModal }) => {
@@ -64,7 +65,8 @@ export const Header = ({ activeTab, setActiveTab, onOpenSafetyModal }) => {
             My Itinerary
           </button>
 
-          {user && (
+          {/* Tourist Dashboard (Only for tourists) */}
+          {user && user.role === 'tourist' && (
             <button
               onClick={() => setActiveTab('dashboard')}
               className={`transition-colors whitespace-nowrap shrink-0 py-1 border-b-2 ${
@@ -105,9 +107,9 @@ export const Header = ({ activeTab, setActiveTab, onOpenSafetyModal }) => {
           {user ? (
             <div className="flex items-center gap-2 pl-2 border-l border-stone-200">
               <button
-                onClick={() => setActiveTab('dashboard')}
+                onClick={() => setActiveTab(user.role === 'admin' ? 'admin' : 'dashboard')}
                 className="text-right hidden xl:block hover:opacity-80 transition-opacity cursor-pointer"
-                title="Open User Dashboard"
+                title="Open Dashboard"
               >
                 <span className="block text-xs font-semibold text-stone-900 truncate max-w-[120px]">
                   {user.name}
@@ -166,7 +168,9 @@ export const Header = ({ activeTab, setActiveTab, onOpenSafetyModal }) => {
         >
           My Itinerary
         </button>
-        {user && (
+        
+        {/* Mobile Tourist Dashboard (Only for tourists) */}
+        {user && user.role === 'tourist' && (
           <button
             onClick={() => setActiveTab('dashboard')}
             className={`py-1 px-2 rounded ${activeTab === 'dashboard' ? 'text-amber-900 font-bold bg-stone-200/60' : ''}`}
